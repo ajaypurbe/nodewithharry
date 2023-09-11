@@ -1,3 +1,3 @@
-const simple= require("./modulesecond");
+const simple= require("./modulesecond.mjs");
 
 simple()
