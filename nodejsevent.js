@@ -7,6 +7,7 @@ myEmitter.on('startstuding', () => {
   console.log('Please start to learn coding');
   setTimeout(() => {
     console.log('please start learning by opening laptop')
-  }, 3000);
+  }, 23);
 });
 myEmitter.emit('startstuding');
+console.log('please start learning by opening script is running')
